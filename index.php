@@ -14,8 +14,5 @@
     <?php require('./template/footer.php') ?>
 </body>
 <script src="./scripts/scripts.js"></script>
-<!-- <script>
-    recargar();
-</script> -->
 
 </html>
