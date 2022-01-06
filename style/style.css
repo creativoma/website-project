@@ -97,6 +97,10 @@ main {
   font-size: 1.6rem;
 }
 
+main p {
+  padding-top: 20px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
