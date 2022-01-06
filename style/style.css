@@ -91,10 +91,8 @@ header nav ul.menu-expand li a {
 }
 
 main {
-  display: flex;
-  justify-content: space-between;
   background: #fff;
-  height: 380px;
+  min-height: 380px;
   padding: 25px 25px;
   font-size: 1.6rem;
 }
