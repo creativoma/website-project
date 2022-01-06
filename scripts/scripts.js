@@ -18,9 +18,11 @@ function toogleMenu() {
 
 function toogleIcon() {
     if (menuBar.classList == 'menu-icon')   {
+        menuBar.getAttribute('style', 'opacity:0');
         menuBar.classList.add('cross');
     }else{
         menuBar.classList.remove('cross');
+        menuBar.getAttribute('style', 'opacity:1');
     }
 }
 

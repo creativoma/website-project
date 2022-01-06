@@ -58,7 +58,7 @@ header nav i.menu-icon {
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
-  transition: all 150ms ease;
+  transition: all 500ms ease;
 }
 
 header nav i.menu-icon.cross {
