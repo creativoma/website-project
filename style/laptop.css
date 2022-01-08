@@ -1,0 +1,14 @@
+/* laptop.css" media="(min-width: 1024px)  */
+main {
+  min-height: 560px;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main section div.card-container {
+  width: 23%;
+}
