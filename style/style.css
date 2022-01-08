@@ -73,11 +73,13 @@ header nav ul.menu-expand {
   list-style: none;
   background: var(--primary-color);
   padding: 10px 0px;
-  transition: all 500ms ease;
+  transition: all 350ms ease;
+  z-index: -1;
 }
 
 header nav ul.menu-expand.active {
   opacity: 1;
+  z-index: 0;
 }
 
 header nav ul.menu-expand li {
@@ -92,13 +94,39 @@ header nav ul.menu-expand li a {
 
 main {
   background: #fff;
-  min-height: 380px;
-  padding: 25px 25px;
   font-size: 1.6rem;
+  padding: 20px 25px;
 }
 
+main::first-letter {
+  text-transform: capitalize;
+}
+
+main section {
+  min-height: 380px;
+}
+
+main section div {
+  margin: 0px 0px 30px 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+main img {
+  width: 100%;
+  height: auto;
+}
+
+main h3 {
+  padding: 10px;
+}
 main p {
-  padding-top: 20px;
+  padding: 5px 10px;
+}
+
+main h3::first-letter,
+p::first-letter {
+  text-transform: capitalize;
 }
 
 footer {

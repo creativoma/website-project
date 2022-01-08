@@ -1,9 +1,3 @@
-const recargar = () => {
-    setTimeout(function() {
-        window.location.reload(1);
-    }, 5000);
-}
-
 const menuExpand = document.querySelector(".menu-expand");
 const menuBar = document.querySelector(".menu-icon");
 const menuLink = document.querySelectorAll('.menu-expand li')
